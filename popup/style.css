@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: white;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 600px;
+  height: 400px;
+}
+
+.row {
+  width: 600px;
+  height: 100px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+a {
+  border-radius: 22.5%;
+  color: white;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: light) {
+  a {
+    color: black;
+  }
+}
+
+a:hover {
+  background-color: #404040;
+}
+
+@media (prefers-color-scheme: light) {
+  a:hover {
+    background-color: #c0c0c0;
+  }
+}
+
+.app {
+  width: 120px;
+  height: 100px;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}
