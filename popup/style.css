@@ -32,32 +32,29 @@ div {
   justify-content: flex-start;
 }
 
-a {
+.app {
   border-radius: 22.5%;
+  width: 120px;
+  height: 100px;
   color: white;
-  text-decoration: none;
+  justify-content: space-evenly;
+  cursor: pointer;
 }
 
 @media (prefers-color-scheme: light) {
-  a {
+  .app {
     color: black;
   }
 }
 
-a:hover {
+.app:hover {
   background-color: #404040;
 }
 
 @media (prefers-color-scheme: light) {
-  a:hover {
+  .app:hover {
     background-color: #c0c0c0;
   }
-}
-
-.app {
-  width: 120px;
-  height: 100px;
-  justify-content: space-evenly;
 }
 
 img {

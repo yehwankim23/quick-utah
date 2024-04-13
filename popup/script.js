@@ -1,20 +1,30 @@
-let innerHTML = "";
-
 for (const row of data) {
-  innerHTML += `<div class="row">`;
+  const rowDiv = document.createElement("div");
+  rowDiv.className = "row";
 
   for (const app of row) {
-    innerHTML += `
-      <a href="${app.url}" target="_blank">
-        <div class="app">
-          <img src="${app.icon}" alt="${app.name}" />
-          <span>${app.name}</span>
-        </div>
-      </a>
+    const appDiv = document.createElement("div");
+    appDiv.className = "app";
+
+    appDiv.innerHTML = `
+      <img src="${app.icon}" alt="${app.name}" />
+      <span>${app.name}</span>
     `;
+
+    appDiv.addEventListener("click", async () => {
+      const [tab] = await chrome.tabs.query({ active: true, lastFocusedWindow: true });
+
+      if (["새 탭", "New Tab", "New tab"].includes(tab.title)) {
+        chrome.tabs.update(tab.tabId, { url: app.url });
+        window.close();
+        return;
+      }
+
+      chrome.tabs.create({ url: app.url });
+    });
+
+    rowDiv.appendChild(appDiv);
   }
 
-  innerHTML += `</div>`;
+  document.querySelector("#container").appendChild(rowDiv);
 }
-
-document.querySelector("#container").innerHTML += innerHTML;

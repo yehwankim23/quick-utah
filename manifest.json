@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Quick Utah",
-  "version": "2024.2",
+  "version": "2024.4",
 
   "action": {
     "default_popup": "popup/index.html"
@@ -15,5 +15,6 @@
   },
 
   "author": "김예환 Ye-Hwan Kim (Sam)",
-  "homepage_url": "https://github.com/yehwankim23/quick-utah"
+  "homepage_url": "https://github.com/yehwankim23/quick-utah",
+  "permissions": ["tabs"]
 }
