@@ -44,7 +44,7 @@ const data = [
     {
       name: "Math Lectures",
       icon: "../images/math-lectures.png",
-      url: "https://math.utah.edu/lectures",
+      url: "https://www.math.utah.edu/lectures",
     },
     { name: "Everytime", icon: "../images/everytime.png", url: "https://everytime.kr" },
   ],

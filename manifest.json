@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Quick Utah",
-  "version": "2024.4",
+  "version": "2024.4.23",
 
   "action": {
     "default_popup": "popup/index.html"
