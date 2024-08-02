@@ -4,7 +4,7 @@ const data = [
     {
       name: "Calendar",
       icon: "../images/calendar.png",
-      url: "https://registrar.utah.edu/academic-calendars/asia23-24.php",
+      url: "https://registrar.utah.edu/academic-calendars/asia24-25.php",
     },
     { name: "Catalog", icon: "../images/catalog.png", url: "https://catalog.utah.edu" },
     {
