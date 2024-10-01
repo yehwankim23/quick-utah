@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Quick Utah",
-  "version": "2024.9",
+  "version": "2024.10",
 
   "action": {
     "default_popup": "popup/index.html"
   },
-  "description": "Chrome extension that provides quick access to University of Utah Asia Campus-related websites",
+  "description": "Chrome extension that provides quick access to websites related to University of Utah Asia Campus",
   "icons": {
     "16": "images/icon-16.png",
     "32": "images/icon-32.png",

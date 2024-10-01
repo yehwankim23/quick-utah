@@ -1,6 +1,6 @@
 # Quick Utah
 
-Chrome extension that provides quick access to University of Utah Asia Campus-related websites
+Chrome extension that provides quick access to websites related to University of Utah Asia Campus
 
 Inspired by [Quick Sook](https://github.com/seohyun0120/Quick-Sook)
 
