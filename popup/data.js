@@ -10,7 +10,7 @@ const data = [
     {
       name: "Class Schedule",
       icon: "../images/class-schedule.png",
-      url: "https://class-schedule.app.utah.edu/uac/1248/index.html",
+      url: "https://class-schedule.app.utah.edu/uac/1254/index.html",
     },
     { name: "Umail", icon: "../images/umail.png", url: "https://outlook.office365.com/mail" },
   ],
