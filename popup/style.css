@@ -1,15 +1,15 @@
 body {
   margin: 0;
-  background-color: black;
+  background-color: #202020;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
-  color: white;
+  color: #e0e0e0;
 }
 
 @media (prefers-color-scheme: light) {
   body {
-    background-color: white;
-    color: black;
+    background-color: #e0e0e0;
+    color: #202020;
   }
 }
 
@@ -36,14 +36,14 @@ div {
   border-radius: 22.5%;
   width: 120px;
   height: 100px;
-  color: white;
+  color: #e0e0e0;
   justify-content: space-evenly;
   cursor: pointer;
 }
 
 @media (prefers-color-scheme: light) {
   .app {
-    color: black;
+    color: #202020;
   }
 }
 
