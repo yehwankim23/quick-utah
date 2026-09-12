@@ -4,13 +4,13 @@ const data = [
     {
       name: "Calendar",
       icon: "../images/calendar.png",
-      url: "https://registrar.utah.edu/academic-calendars/asia25-26.php",
+      url: "https://registrar.utah.edu/academic-calendars/pdf-academic-calendars/asia_2026-2027.pdf",
     },
     { name: "Catalog", icon: "../images/catalog.png", url: "https://catalog.utah.edu" },
     {
       name: "Class Schedule",
       icon: "../images/class-schedule.png",
-      url: "https://class-schedule.app.utah.edu/uac/1264/index.html",
+      url: "https://class-schedule.app.utah.edu/uac/1268/index.html",
     },
     { name: "Umail", icon: "../images/umail.png", url: "https://outlook.office365.com/mail" },
   ],
